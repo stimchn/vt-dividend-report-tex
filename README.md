@@ -1,0 +1,1 @@
+# vt-dividend-report-tex
