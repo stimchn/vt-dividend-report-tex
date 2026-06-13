@@ -1,0 +1,150 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{luatexja-preset}
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+\usepackage{tabularray}
+\usetheme{metropolis}
+\title{VTの分配金}
+\author{さといもちゃん}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}[plain]
+	\frametitle{VTの受取分配金と外国税額控除還付金}
+	\begin{table}
+		\small
+		\centering
+		\SetTblrInner{
+			row{1,2}={font=\bfseries},
+			colspec = {Q[font=\bfseries] *{7}{Q}}
+		}
+		\begin{tblr}{c|r|r|r|r|r|r|r} \hline
+			\SetCell[r=2]{c}年 & \SetCell[c=5]{c}分配金（円） &               &               &                &               & \SetCell[r=2]{c}還付金（円） & \SetCell[r=2]{c}総計（円） \\ \hline
+			                  & \SetCell{c}3月          & \SetCell{c}6月 & \SetCell{c}9月 & \SetCell{c}12月 & \SetCell{c}小計 &                        &                       \\ \hline
+			2018              & 0                      & 29,877        & 101,865       & 138,061        & 269,803       & 14,377                 & 284,180               \\
+			2019              & 85,577                 & 164,316       & 139,307       & 207,750        & 596,950       & 77,478                 & 674,428               \\
+			2020              & 82,286                 & 135,655       & 156,191       & 217,804        & 591,936       & 62,977                 & 654,913               \\
+			2021              & 107,726                & 221,496       & 185,241       & 372,996        & 887,459       & 99,296                 & 986,755               \\
+			2022              & 132,855                & 345,014       & 260,541       & 393,508        & 1,131,918     & 136,118                & 1,268,036             \\
+			2023              & 175,108                & 443,756       & 290,734       & 563,399        & 1,472,997     & 178,508                & 1,651,505             \\
+			2024              & 319,345                & 466,455       & 307,694       & 720,989        & 1,814,483     & 221,482                & 2,035,965             \\
+			2025              & 304,720                & 457,390       & 385,997       & 956,963        & 2,105,070     & 260,344                & 2,365,414             \\
+			2026              & 289,779                &               &               &                & (289,779)     &                        &                       \\ \hline
+		\end{tblr}
+	\end{table}
+\end{frame}
+
+\begin{frame}[plain]
+	\frametitle{VTの分配金に課され国内の所得税と地方税}
+	\begin{columns}
+
+		\begin{column}[T]{0.49\hsize}
+			\begin{table}
+				\tiny
+				\centering
+				\SetTblrInner{
+					row{1,2}={font=\bfseries},
+					colspec = {Q[font=\bfseries] *{5}{Q}}
+				}
+				\begin{tblr}{c|r|r|r|r|r} \hline
+					\SetCell[r=2]{c}年 & \SetCell[c=5]{c}所得税（円） &               &               &                &              \\ \hline
+					                  & \SetCell{c}3月          & \SetCell{c}6月 & \SetCell{c}9月 & \SetCell{c}12月 & \SetCell{c}計 \\ \hline
+					2018              & 0                      & 5,459         & 18,325        & 25,905         & 49,689       \\
+					2019              & 14,799                 & 28,327        & 24,049        & 36,110         & 103,285      \\
+					2020              & 13,679                 & 22,908        & 26,563        & 37,211         & 100,361      \\
+					2021              & 17,921                 & 36,857        & 30,506        & 62,274         & 147,558      \\
+					2022              & 21,930                 & 57,066        & 43,370        & 65,195         & 187,561      \\
+					2023              & 29,264                 & 73,947        & 49,053        & 95,602         & 247,866      \\
+					2024              & 53,020                 & 78,382        & 52,056        & 121,942        & 305,400      \\
+					2025              & 51,940                 & 77,962        & 65,352        & 163,683        & 358,937      \\
+					2026              & 49,698                 &               &               &                & (49,698)     \\ \hline
+				\end{tblr}
+			\end{table}
+		\end{column}
+
+		\begin{column}[T]{0.49\hsize}
+			\begin{table}
+				\tiny
+				\centering
+				\SetTblrInner{
+					row{1,2}={font=\bfseries},
+					colspec = {Q[font=\bfseries] *{5}{Q}}
+				}
+				\begin{tblr}{c|r|r|r|r|r} \hline
+					\SetCell[r=2]{c}年 & \SetCell[c=5]{c}地方税（円） &               &               &                &              \\ \hline
+					                  & \SetCell{c}3月          & \SetCell{c}6月 & \SetCell{c}9月 & \SetCell{c}12月 & \SetCell{c}計 \\ \hline
+					2018              & 0                      & 1,782         & 5,982         & 8,457          & 16,221       \\
+					2019              & 4,831                  & 9,248         & 7,851         & 11,789         & 33,719       \\
+					2020              & 4,466                  & 7,479         & 8,672         & 12,148         & 32,765       \\
+					2021              & 5,851                  & 12,033        & 9,959         & 20,331         & 48,174       \\
+					2022              & 7,159                  & 18,631        & 14,159        & 21,285         & 61,234       \\
+					2023              & 9,554                  & 24,142        & 16,014        & 31,212         & 80,922       \\
+					2024              & 17,309                 & 25,590        & 16,995        & 39,811         & 99,705       \\
+					2025              & 16,957                 & 25,452        & 21,336        & 53,439         & 117,184      \\
+					2026              & 16,225                 &               &               &                & (16,225)     \\ \hline
+				\end{tblr}
+			\end{table}
+		\end{column}
+
+	\end{columns}
+\end{frame}
+
+\begin{frame}[plain]
+	\frametitle{VTの分配金に課された外国源泉徴収税額}
+	\begin{columns}
+
+		\begin{column}[T]{0.49\hsize}
+			\begin{table}
+				\tiny
+				\centering
+				\SetTblrInner{
+					row{1,2}={font=\bfseries},
+					colspec = {Q[font=\bfseries] *{5}{Q}}
+				}
+				\begin{tblr}{c|r|r|r|r|r} \hline
+					\SetCell[r=2]{c}年 & \SetCell[c=5]{c}外国源泉徴収税額（USD） &               &               &                &              \\ \hline
+					                  & \SetCell{c}3月                 & \SetCell{c}6月 & \SetCell{c}9月 & \SetCell{c}12月 & \SetCell{c}計 \\ \hline
+					2018              & 0.00                          & 37.47         & 122.98        & 177.94         & 338.39       \\
+					2019              & 105.31                        & 208.85        & 176.26        & 259.25         & 749.67       \\
+					2020              & 102.51                        & 172.20        & 201.83        & 286.85         & 763.39       \\
+					2021              & 133.64                        & 270.65        & 227.12        & 442.10         & 1,073.51     \\
+					2022              & 147.37                        & 347.23        & 245.36        & 401.67         & 1,141.63     \\
+					2023              & 181.91                        & 419.56        & 267.69        & 538.75         & 1,407.91     \\
+					2024              & 287.11                        & 396.64        & 292.04        & 623.19         & 1,598.98     \\
+					2025              & 276.36                        & 429.52        & 353.01        & 835.04         & 1,893.93     \\
+					2026              & 247.74                        &               &               &                & (247.74)     \\ \hline
+				\end{tblr}
+			\end{table}
+		\end{column}
+
+		\begin{column}[T]{0.49\hsize}
+			\begin{table}
+				\tiny
+				\centering
+				\SetTblrInner{
+					row{1,2}={font=\bfseries},
+					colspec = {Q[font=\bfseries] *{5}{Q}}
+				}
+				\begin{tblr}{c|r|r|r|r|r} \hline
+					\SetCell[r=2]{c}年 & \SetCell[c=5]{c}外国源泉徴収税額（円） &               &               &                &              \\ \hline
+					                  & \SetCell{c}3月               & \SetCell{c}6月 & \SetCell{c}9月 & \SetCell{c}12月 & \SetCell{c}計 \\ \hline
+					2018              & 0                           & 4,079         & 13,886        & 19,572         & 37,537       \\
+					2019              & 11,515                      & 22,302        & 18,831        & 28,174         & 80,822       \\
+					2020              & 10,934                      & 18,261        & 21,079        & 29,438         & 79,712       \\
+					2021              & 14,414                      & 29,785        & 24,577        & 50,056         & 118,832      \\
+					2022              & 17,691                      & 46,603        & 35,208        & 52,732         & 152,234      \\
+					2023              & 23,631                      & 59,646        & 39,463        & 76,759         & 199,499      \\
+					2024              & 42,570                      & 62,887        & 41,683        & 97,497         & 244,637      \\
+					2025              & 41,437                      & 62,156        & 51,992        & 130,055        & 285,640      \\
+					2026              & 39,008                      &               &               &                & (39,008)     \\ \hline
+				\end{tblr}
+			\end{table}
+		\end{column}
+
+	\end{columns}
+\end{frame}
+
+\end{document}
