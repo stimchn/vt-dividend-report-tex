@@ -1,11 +1,11 @@
 # vt-dividend-report-tex
 
 Vanguard社のETFであるTotal World Stock ETF（VT）。  
-その受取分配金を共有するための資料のTeXコードです。
+その受取分配金を共有するためのPDF資料とTeXソースコードを公開する。
 
-## ファイル
+## 公開ファイル
 以下の2つ。
-- main.tex（ソースコード）
+- main.tex（TeXソースコード）
 - main.pdf（組版後のPDFファイル）
 
 ## TeXコードに関する補足
